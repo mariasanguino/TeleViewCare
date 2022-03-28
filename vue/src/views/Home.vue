@@ -55,7 +55,7 @@ export default {
     },
     data() {
         return {
-            userName: 'Breno Pereira',
+            userName: 'Maria Sanguino',
             userQueries: '2',
             userSince: '19/03/2022'
         }
