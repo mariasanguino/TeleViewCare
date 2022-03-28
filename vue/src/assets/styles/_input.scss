@@ -1,0 +1,30 @@
+input {
+    background-color: $input-color;
+    border: 1px solid $input-color;
+    border-radius: 30px;
+    padding: 1rem 0 1rem 2.8rem;
+    box-shadow: $smooth-shadow;
+    outline: 0;
+    transition: .4s;
+
+    &::placeholder {
+        color: $input-text;
+    }
+
+    &:focus {
+        box-shadow: $smooth-shadow-hover;
+    }
+}
+
+.inputSection {
+    position: relative;
+    margin-bottom: 1rem;
+
+    label {
+        position: absolute;
+        font-size: 1.2rem;
+        color: $input-text;
+        left: 1rem;
+        top: .82rem;
+    }
+}
